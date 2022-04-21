@@ -896,6 +896,10 @@ select {
         margin-bottom: 10px;
     }
 
+    .contenedor-nosotros h1:hover,
+.contenedor-nosotros h2:hover {
+    color: rgb(235, 235, 235);
+}
     /* escuela */
 
     .portada_escuela {
@@ -1720,7 +1724,14 @@ select {
 
 }
 
-@media (min-width:800px) {}
+@media (min-width:800px) {
+    
+.contenedor-nosotros h1:hover,
+.contenedor-nosotros h2:hover {
+    color: rgb(172, 164, 154)
+}
+
+}
 
 @media (min-width:1024px) {
 
